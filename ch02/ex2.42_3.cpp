@@ -10,7 +10,9 @@ int main()
     total.CalcRevenue(totalPrice);
 
     Sales_data trans;
+
     double transPrice;
+
     while (std::cin >> trans.bookNo >> trans.units_sold >> transPrice)
     {
       trans.CalcRevenue(transPrice);
